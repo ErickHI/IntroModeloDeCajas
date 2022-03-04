@@ -1,0 +1,108 @@
+body{
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #0677BA;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 250px;
+}
+
+/* .logo{
+    width: auto;
+} */
+
+.main-page{
+    background-color: #F9F9F8;
+    padding: 80px 0px 130px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #D7D7D7;
+}
+section{
+    background-color: white;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    width: 25em;
+    padding: 20px 30px 20px 30px;
+}
+
+.title-form{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 0px;
+}
+
+.title-form span {
+    font-size: 1.25em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.title-form a{
+    color: #9A9FA8;
+    /* font-weight: bold; */
+    text-decoration: none;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+}
+
+.acces-content{
+    width: 100%;
+    margin: 0px  0px 5px 0px;
+    display: flex;
+    align-content: stretch;
+}
+
+.access-in{
+    background-color: #EEEEEE;
+    color: #666;
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    /* width: ; */
+    /* margin: 0px  0px 5px 0px; */
+    padding: .5em;
+    font-size: 16px;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.instruction {
+    color: #9A9FA8;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.continue{
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    background-color: #5FB8D5;
+    border: 1px solid #4baecf;
+    padding: .5em;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    padding: 40px 0px 20px 250px;
+}
+
+.info {
+    color: #55667A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.link {
+    color: #55667A;
+    text-decoration: none;
+}
